@@ -1,0 +1,13 @@
+public class Pattern {
+    void print() {
+        int Nol=5;
+        for(int line=1;line<=5; line++)
+        {
+            for(int j=1;j<=(Nol-line);j++)
+            {
+                System.out.print(".");
+            }
+            System.out.println(line);
+        }
+    }
+}
